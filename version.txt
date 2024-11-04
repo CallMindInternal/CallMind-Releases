@@ -1,13 +1,18 @@
 ;aiu;
-<?xml version="1.0" encoding="UTF-8"?>
-<Updates>
-  <Update>
-    <ProductCode>{4D3999ED-C6B2-4C44-9697-D175BABA4DEE}</ProductCode>
-    <Version>1.0.4</Version>
-    <Description>New features, improvements, and bug fixes.</Description>
-    <URL>https://github.com/CallMindInternal/CallMind-Releases/releases/download/V1.0.4/CallMindInstaller.msi</URL>
-    <Size>201895424</Size>
-    <ServerFileName>CallMindInstaller.msi</ServerFileName>
-    <MD5>36d7f390a5ce755343478043e45ab21d</MD5>
-  </Update>
-</Updates>
+
+[Update v1.0.4]
+Name = CallMind
+ProductVersion = 1.0.4
+URL = https://github.com/CallMindInternal/CallMind-Releases/releases/download/V1.0.4/CallMindInstaller.msi
+Size = 201895424
+ReleaseDate = 04/11/2024
+SHA256 = 48057FE37EBB1A5C34CB8AAF885669BAF4105D83DB9DFEE916B0954C8D7DBDB9
+MD5 = 36d7f390a5ce755343478043e45ab21d
+CommandLine = msiexec /i "CallMindInstaller.msi" /qn
+ServerFileName = CallMindInstaller.msi
+Flags = Critical|Sys64|NoCache|Os64
+FilePath = [APPDIR]CallMind.exe
+Version = 1.0.4
+UpdatedApplications = CallMind[1.0.2-1.0.4)
+BugFix = Fixed issue where hitting the 'Enter' key would not advance sign in.
+AutoCloseApplication = [APPDIR]CallMind.exe|C:\\CallMind\\CallMind;;AlwaysRestart
