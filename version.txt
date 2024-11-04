@@ -15,4 +15,4 @@ FilePath = [APPDIR]CallMind.exe
 Version = 1.0.4
 UpdatedApplications = CallMind[1.0.2-1.0.4)
 BugFix = Fixed issue where hitting the 'Enter' key would not advance sign in.
-AutoCloseApplication = [APPDIR]CallMind.exe|C:\\CallMind\\CallMind;;AlwaysRestart
+AutoCloseApplication = [APPDIR]CallMind.exe|;;NoRestart
