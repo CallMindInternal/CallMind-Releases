@@ -2,11 +2,11 @@
 <Updates>
   <Update>
     <ProductCode>{4D3999ED-C6B2-4C44-9697-D175BABA4DEE}</ProductCode>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Description>New features, improvements, and bug fixes.</Description>
-    <URL>https://github.com/CallMindInternal/CallMind-Releases/releases/download/V1.0.3/CallMindInstaller.msi</URL>
+    <URL>https://github.com/CallMindInternal/CallMind-Releases/releases/download/V1.0.4/CallMindInstaller.msi</URL>
     <Size>201895424</Size>
     <ServerFileName>CallMindInstaller.msi</ServerFileName>
-    <MD5>a946260ea081a46459c68b360ab19a79</MD5>
+    <MD5>36d7f390a5ce755343478043e45ab21d</MD5>
   </Update>
 </Updates>
